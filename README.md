@@ -1,2 +1,39 @@
 # Deep-Dive-in-CPP-Abdul-Bari
 Learn C++ Programming -Beginner to Advance- Deep Dive in C++
+
+# Intro to course
+-- We will be learning all that is part of standard university one semester course in C++. Course medium by Udemy instructor is White Board and screenrecording from time to time. I will be writing whatever I feel is important in these notes. Demonstration of each topic along with code will be provided, to cover practical and theoretical aspects in a greater way for learning as well as remembering for longer periods of time has been taken care of.
+
+# Why one should learn C++ ?
+
+1. It is in your syllabus and is widely used even today due to its large applications, as well as lots and lots of legacy code is also written on C++ already, so it is an integral part of many crucial systems we see today.
+2.  C++ follows Object Oriented Paradigm, lots of new languages are Object Oriented and it it provides lots of features in Object Oriented which are not available in newer languages and syntactically it is much better, even if that means you have to learn a lots of things due to sometimes exhaustive syntax. Which plays a crucial role in giving programmers more power and freedom over writing code in the way they want.
+3. C++ is compatible with hardware due to it's nature of being a low level language which is easier for computers to understand. Proving to be a great choice for making Apps which run directly over the OS. So here is a layer of Hardware >> OS >> Application.
+4.  Looking at applications such as DotNet, C#, Java or Python, these languages do not run dierctly over the OS but instead they need an interpreter that is a run time environment like java runs inside JVM and .NET programs run inside Common Language Run-time environment CLR.
+So, interpreter is used to establish interaction between OS and Hardware which makes it as follows (Hardware >> OS >> Environment >> App) due to this intermediate interference of environment layer these languages aren't that powerful compared to C++ which directly interacts with OS or hardware.
+
+## List of applications of C++
+1. System Softwares/Tools
+2. Embedded Systems (Microprocessors & Controllers viz. Arduino,Rasp)
+3. Operating Systems, Interpreters
+4. Platforms and Engines
+5. Games & Graphics
+
+# About Course : Contents we will be covering
+
+Course is around 20+ hours, there are 200+ lectures with 21 or so sections currently. 
+## Contents : Outline
+1. Introduction
+2. C++ Basics
+3. Conditional Statements
+4. Loops
+5. Functions
+6. Object-Oriented Programming
+7. Operator Overloading
+8. Templates
+9. I/O Streams
+10. STL
+11. Features of C++
+
+# Course Flow
+We will be focusing on basics and being correct syntax wise throughout the course but it will be more intense till we get to functions, after that point the focus will shift to understanding OOP concepts and connecting them with real world examples to understand how it fits in software development cycle.
