@@ -38,6 +38,30 @@ Course is around 20+ hours, there are 200+ lectures with 21 or so sections curre
 # Course Flow
 We will be focusing on basics and being correct syntax wise throughout the course but it will be more intense till we get to functions, after that point the focus will shift to understanding OOP concepts and connecting them with real world examples to understand how it fits in software development cycle.
 
+# Installing IDEs
+# For Windows
+
+1. Go to [MinGW](http://www.mingw.org/)  >> Click on Downloads and get the compiler from sourceforge website.
+Install the compiler and set the path to it in System Variables so it can be detected by any programs that want to use it.
+
+2. Other choice is to use **Code::Blocks**
+[Code::Blocks IDE Download Link](http://www.codeblocks.org/downloads/26)
+Click on Download Binary Release and I would recommend going for *mingw-setup.exe file as it would download compiler as well as IDE. Again download it from sourceforge and install it. Do, a spouse mode installation, agree, yes, yes next agree install. xD  Wait for the installation to finish.
+
+Open Code::Blocks select new project and console application of C++ and press next, enter project name and Finish.
+Build the project by  clicking build and see how the main.cpp is executed in console. That's it. Your installation of C++ IDE works.
+
+3. **DevC++** : Go to [this link](https://www.bloodshed.net/dev/devcpp.html) to download and install DevC++.
+ Be sure to choose whether you want without compiler or with MinGW installed or source code variant.
+ Again Install the program, create new project of console application type. Try Hello World program in main.cpp, try building the project to verify if it works.
+
+# For Mac OS X
+
+Go to App Store and search for Xcode. Install it and you're done.
+Alternatively, you can also go to terminal and type **xcode-select --install** 
+
+Create new XCode Project >> Command Line Tool >> Select language as C++ and give title and destination and proceed.
+
 # Essentials Fundamental:
 
 - Fundamentals
