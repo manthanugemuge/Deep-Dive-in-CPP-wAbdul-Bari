@@ -21,7 +21,7 @@ So, interpreter is used to establish interaction between OS and Hardware which m
 
 # About Course : Contents we will be covering
 
-Course is around 20+ hours, there are 200+ lectures with 21 or so sections currently. 
+Course is around 20+ hours, there are 200+ lectures with 27 or so sections currently. 
 
 ## Contents : Outline
 1. Introduction
