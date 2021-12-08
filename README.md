@@ -22,6 +22,7 @@ So, interpreter is used to establish interaction between OS and Hardware which m
 # About Course : Contents we will be covering
 
 Course is around 20+ hours, there are 200+ lectures with 21 or so sections currently. 
+
 ## Contents : Outline
 1. Introduction
 2. C++ Basics
@@ -78,6 +79,14 @@ Create new XCode Project >> Command Line Tool >> Select language as C++ and give
 - What is an algorithm
 - What is a Flow-chart
 - Steps for Program Development & Execution
+
+# Steps for Program Development and Execution
+
+1. Editing
+2. Compiling
+3. Linking Library
+4. Loading
+5. Execution
 
 # C++ Basic:
 
