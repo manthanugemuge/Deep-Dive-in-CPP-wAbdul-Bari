@@ -1,6 +1,9 @@
 # Deep-Dive-in-CPP-Abdul-Bari
 Learn C++ Programming -Beginner to Advance- Deep Dive in C++
 
+- Here I bring you the notes of cpp exclusively from Sir Abdul Bari's Deep Dive in C++ Course on [Udemy](https://www.udemy.com/course/cpp-deep-dive/)
+- Please have a look and feel free to ask any questions.
+
 # Intro to course
 -- We will be learning all that is part of standard university one semester course in C++. Course medium by Udemy instructor is White Board and screenrecording from time to time. I will be writing whatever I feel is important in these notes. Demonstration of each topic along with code will be provided, to cover practical and theoretical aspects in a greater way for learning as well as remembering for longer periods of time has been taken care of.
 
@@ -21,7 +24,7 @@ So, interpreter is used to establish interaction between OS and Hardware which m
 
 # About Course : Contents we will be covering
 
-Course is around 20+ hours, there are 200+ lectures with 27 or so sections currently. 
+[Udemy](https://www.udemy.com/course/cpp-deep-dive/) Course is around 20+ hours, there are 200+ lectures with 27 or so sections currently. 
 
 ## Contents : Outline
 1. Introduction
