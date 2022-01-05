@@ -462,7 +462,7 @@ Create new XCode Project >> Command Line Tool >> Select language as C++ and give
   - Abstract with some concrete and some pure virtual functions
   - All virtual functions
 
-> Example:
+   > Example:
 
     ```
     class Base //Abstract Class
@@ -503,7 +503,7 @@ Create new XCode Project >> Command Line Tool >> Select language as C++ and give
 
   > Example:
 
-      ```
+   ```
       class Student{
         public:
           int rollNo;
@@ -517,4 +517,4 @@ Create new XCode Project >> Command Line Tool >> Select language as C++ and give
       };
 
       int Student::admissionNo = 0;
-      ```
+    ```
