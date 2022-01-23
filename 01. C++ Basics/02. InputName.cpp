@@ -13,7 +13,7 @@ int main(void)
     return 0;
 }
 
-or
+or // other away
 
 #include <iostream>
 using namespace std;
@@ -29,7 +29,7 @@ int main(void)
     return 0;
 }
 
-or
+or // other away
   
 #include<iostream>
 using namespace std;
