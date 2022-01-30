@@ -1,5 +1,6 @@
-# Deep-Dive-in-CPP-Abdul-Bari
+# Deep Dive in CPP Abdul Bari
 Learn C++ Programming -Beginner to Advance- Deep Dive in C++
+(I was practising on my own will upload asap)
 
 - Here I bring you the notes of cpp exclusively from Sir Abdul Bari's Deep Dive in C++ Course on [Udemy](https://www.udemy.com/course/cpp-deep-dive/)
 - Please have a look and feel free to ask any questions.
