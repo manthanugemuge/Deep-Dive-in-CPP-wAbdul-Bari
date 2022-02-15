@@ -25,7 +25,7 @@ So, interpreter is used to establish interaction between OS and Hardware which m
 
 # About Course : Contents we will be covering
 
-[Udemy](https://www.udemy.com/course/cpp-deep-dive/) Course is around 20+ hours, there are 200+ lectures with 27 or so sections currently. 
+[Udemy](https://www.udemy.com/course/cpp-deep-dive/) Course is around 30+ hours, there are 340+ lectures with 27 or so sections currently. 
 
 ## Contents : Outline
 1. Introduction
