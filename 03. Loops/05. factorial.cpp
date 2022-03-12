@@ -22,6 +22,5 @@ int main()
         }
         cout << "Factorial is : " << result << "." << endl;
     }
-
     return 0;
 }
