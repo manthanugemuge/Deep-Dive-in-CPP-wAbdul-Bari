@@ -10,5 +10,6 @@ int main()
         if (n % i == 0)
             cout << i << " is a factorial of " << n << "." << endl;
     }
+    
     return 0;
 }
