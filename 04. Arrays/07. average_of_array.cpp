@@ -13,6 +13,7 @@ int main()
         cin >> num[i];
         sum += num[i];
     }
+    
     average = sum / n;
     cout << "Average is : " << average;
     return 0;
