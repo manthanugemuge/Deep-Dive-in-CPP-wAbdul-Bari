@@ -4,7 +4,6 @@ int main()
 {
     /*
     // For printing square pattern
-
     for (int i = 1; i <= 5; i++) 
     {
         for (int j = 1; j <= 5; j++) 
@@ -49,6 +48,5 @@ int main()
             }
             cout << endl;
         }
-
         return 0;
     }
