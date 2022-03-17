@@ -60,7 +60,7 @@ Build the project by  clicking build and see how the main.cpp is executed in con
  Be sure to choose whether you want without compiler or with MinGW installed or source code variant.
  Again Install the program, create new project of console application type. Try Hello World program in main.cpp, try building the project to verify if it works.
 
-# For Mac OS X
+# For Mac OS 
 
 Go to App Store and search for Xcode. Install it and you're done.
 Alternatively, you can also go to terminal and type **xcode-select --install** 
