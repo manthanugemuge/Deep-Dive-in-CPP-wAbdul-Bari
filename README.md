@@ -119,10 +119,10 @@ Create new XCode Project >> Command Line Tool >> Select language as C++ and give
 - Condition given in loop must become false after some finite iterations otherwise its a infinite loop.
 - Values used in condition must update inside the body of finite loop.
 - Four types of loops:
-  - pre-tested loop while()
-  - post-tested loop do..while()
-  - counter controlled loop for()
-  - for each loop for Collections for()
+  1. pre-tested loop while()
+  2. post-tested loop do..while()
+  3. counter controlled loop for()
+  4. for each loop for Collections for()
 
 # Arrays:
 
