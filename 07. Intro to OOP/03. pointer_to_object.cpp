@@ -49,4 +49,9 @@ int main()
     return 0;
 }
 
+/*
+Here we see how to have pointer on an object, and how to create objects in stack and heap memory.
 
+In JAVA objects can't be created in heap and are always created in heap using new.
+C++ gives option to programmer based on where you want object to be created.
+*/
