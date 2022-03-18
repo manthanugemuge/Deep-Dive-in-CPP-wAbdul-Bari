@@ -32,3 +32,14 @@ int main()
     return 0;
 }
 
+/*
+
+We can't use local variables such as int x = 10 and using return &x; 
+Instead we should use heap memory and return address to that.
+
+p above creates the memory in heap and returns the address at the end of the function.
+That same address is passed on to q which we can verify on printing the addresses of pointers p and q which means
+q points to the same memory location. As heap memory is global to the program which means it can be accessed from any
+part of the program, provided address of that memory is known to us and precisely that is done by this function.
+It sends the address which is then used by q in the main function.
+*/
