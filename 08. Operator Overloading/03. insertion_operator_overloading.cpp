@@ -52,3 +52,15 @@ ostream &operator<<(ostream &o, Complex &c1)
     o << c1.real << " + " << c1.img << "i" << endl;
     return o;
 }
+
+/*
+We can overload output stream or ostream operator as well. We use cout and cin i.e. instream and outstream for things
+like displaying the values or taking the input from the user. These extraction and insertion operators can also be over-
+-loaded. We will see overloading of insertion operator class here.
+We have a class Complex and in main there is object. If we have int x = 10. And we did cout<<x ; then value of x will
+be displayed on screen just like that what we want here by overloading is when we do cout << c1 then display complex #.
+This would allow us to display our own objects. Say c1 is 5,7 then desired result is  5 + 7i on screen after doing cout.
+
+So just like operator overloading here we write the function first for displaying what we want and after that we would
+convert it into insertion operator overloaded form.
+*/
