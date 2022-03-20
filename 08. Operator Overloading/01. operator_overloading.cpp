@@ -39,4 +39,12 @@ int main()
     return 0;
 }
 
+/*In C++ there are operators for various operations like +,-,*,/,new,delete etc.
+These operators are meant for some specific data type. There are built-in operators for built-in data types.
+Say + can be used by-default only with int or float data type only. If we are defining our own data type say a class
+called matrix and we want + operator to add 2 matrices A and B and store it in C ? 
+Yes, with the help of operator overloading we can do so. + operator can be overloaded for matrix.
+For user defined data type we can overload operators. There are various operators we can overload in C++ except a few.
 
+
+*/
