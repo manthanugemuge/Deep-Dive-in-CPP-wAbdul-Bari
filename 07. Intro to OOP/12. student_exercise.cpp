@@ -85,3 +85,14 @@ void Student::set_chem(int chem_marks)
     else
         this->chem_marks = 0;
 }
+
+/*
+
+Write a class student with following :
+1. Roll
+2. Name
+3. Marks in 3 subject
+
+Functions for total marks, Grade and required methods.
+
+*/
