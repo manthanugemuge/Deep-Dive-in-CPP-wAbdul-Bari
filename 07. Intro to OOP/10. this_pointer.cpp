@@ -23,7 +23,7 @@ public:
 
 int main()
 {
-    Rectangle r1(10, 5); 
+    Rectangle r1(10, 5); // 10 and 5 goes to length and breadth of function and via this gets stored in private members.
     return 0;
 }
 
