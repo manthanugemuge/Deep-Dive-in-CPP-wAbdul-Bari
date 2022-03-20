@@ -42,3 +42,15 @@ Complex operator+(Complex c1, Complex c2) // Independent function doesn't belong
     t.img = c1.img + c2.img;
     return t;
 }
+
+/*
+We have seen how to overload an operator. There is another way as well for overloading an operator using friend function.
+Here also we want to do c3 = c1 + c2. In operator overloading either c1 was calling c2 as argument or vice-versa.
+
+Suppose 2 person have some money and they want to know total amount they both have. Either A can take B's money and find total
+or B can take A's money and find total. This is what kind of happens in operator overloading.
+
+or what we can do is call a third person and tell him to take Money of A and B and tell the total. This is what happens
+when we use friend function. Above we can see how to make this friend function.
+
+*/
