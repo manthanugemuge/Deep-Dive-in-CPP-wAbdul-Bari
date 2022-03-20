@@ -46,5 +46,23 @@ called matrix and we want + operator to add 2 matrices A and B and store it in C
 Yes, with the help of operator overloading we can do so. + operator can be overloaded for matrix.
 For user defined data type we can overload operators. There are various operators we can overload in C++ except a few.
 
+We here try to add 2 complex numbers c1 and c2 and show sum as c3 by overloading + operator.
+c3 = c1+c2 where c1 = 5+7i and c2 = 2+9i and c3 comes comes out to be 7+16i.
 
+For operator overloading two things are needed : 
+1. How to write functions
+2. Signature of a function
+
+Say we are inside main
+int main(){
+    Complex c1(5,7); // makes complex number object c1
+    Complex c2(2,9);
+    Complex c3;
+    // What we want is c3 = c1+c2 . c1 to c3 all are objects of class complex. Now how the addition would happen ?
+    // Instead of + we do the following
+    c3 = c1.add(c2) // c1 will add 2 complex numbers and will take c2 as parameter. Now we define add function in class
+}
+This was the logic now we move towards operator overloading part.
+Now where we have defined the function as Complex add(Complex x) there instead of add we write operator+ as follows :
+Complex operator+(Complex x) and this can be called not as c3 = c1.operator+(c2) but as c3 = c1 + c2
 */
