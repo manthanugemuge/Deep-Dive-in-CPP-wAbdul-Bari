@@ -46,4 +46,15 @@ We would get Default of parent_class output and then we will get Default const..
     return 0;
 }
 
+/*
+Above we make a simple class parent_class and inside it we only write constructors of different kinds.
+Whenever dealing with inheritance of classes just know that the parent class constructor will be executed first and
+then child class constructor would be executed when creating object of child class.
 
+On passing a parameter to the derived class object, we are trying to create an object using parameterized constructor
+for creating object of Derived class. So, here first parent_class class default constructor will be executed first and after that
+parameterized constructor of child_class is executed.
+
+How to call the parameterized constructor of parent class when the object of child class is executed ?
+For that we need to have special constructor in child class.
+*/
