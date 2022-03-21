@@ -106,4 +106,20 @@ int Rectangle::perimeter()
     return 2 * (this->length + this->breadth);
 }
 
+/*
+Inheritance : One of the important features of OOP. Acquiring the features of existing class into
+                a new class is inheritance, i.e. deriving a class from existing class.
+Example in automobile engineering, a car company designs a car and based on the design,
+company manufactures a car. Now engineers work on the design and based on it many cars are made.
+When working on a new car, same features are carried on to a new design and on that some extra
+features are added. Resulting in a new car with some new features is made and process repeats itself.
+This was an example of inheritance, acquiring the features of an existing design into a new design.
 
+Say, in programming we also want the same for class Rectangle. So maybe we want same features
+as rectangle with added feature of height for cuboid. We can do so by adding height.
+
+We can make class Cuboid which extends from class Rectangle and this allows cuboid class to
+call whatever there is inside class Rectangle. This allows us to achieve reusability in programming.
+
+Reference : https://i.imgur.com/ZXmF7vC.png
+*/
