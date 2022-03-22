@@ -63,5 +63,17 @@ Then we have a child class which inherits from Parent publicly. Child class has 
 which tries to access members which are being inherited from parent class.
 We see that a is not accessible inside the child function so we comment it.
 
+For explanation about various methods of inheritance of a class public, pvt. and protected we
+take another class called grand_child, this class inherits from child class, here also we write
+the same function as child class which tries to access variables of class Parent, and even child class does not own
+these members which are being called in grand_child class from child class. As a,b,c are members of Parent class.
 
+Let's look at method of inheritance which is publicly. When child class inherits publicly then all the members of
+the parent class are taken as it is from parent to child class. Same happens when grand_child class inehrits
+child class then also var a is not accessible as it is private in Parent class.
+
+We verify the same by creating an object  of child class and accessing variables of Class Child. Upon trying to modify
+the a and b variable we get an error that we cannot access a and b which are private and protected which comes from Parent.
+
+Object of child is not accessible from main function as the members were made protected when inheriting from Parent.
 */
