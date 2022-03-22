@@ -30,3 +30,9 @@ int main()
     return 0;
 }
 
+/*
+Above code basically creates the object c of cuboid class but when we use pointer of Rectangle class then it means that
+we are addressing or will be able to access only those parts of the derived class cuboid which have been brought in from
+class Rectangle which is the class of pointer. So we are able to access only stuff present in Rectangle class
+even if we store the address of Cuboid object in the class.
+*/
