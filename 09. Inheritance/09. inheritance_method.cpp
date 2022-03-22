@@ -54,4 +54,14 @@ int main()
     return 0;
 }
 
+/*
+Derived class can inherit from base class using 3 methods private, public and protected.
+Above we have parent class which has some members as one of every access specifier kind.
+It has a function as well which accesses all the members.
 
+Then we have a child class which inherits from Parent publicly. Child class has a function
+which tries to access members which are being inherited from parent class.
+We see that a is not accessible inside the child function so we comment it.
+
+
+*/
