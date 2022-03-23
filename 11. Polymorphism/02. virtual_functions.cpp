@@ -24,5 +24,6 @@ int main()
     Parent *p = new Child();
     // Now using base class pointer we can call functions which are present in base class.
     p->display(); // Parent class function is called, as pointer is of Parent therefore function also is called of Parent
-    
+    // Using a Parent class pointer when we call an over rided function then Parent class function is called.
+    // To execute function of child class we do the following : we make the function of Parent as virtual
 }
