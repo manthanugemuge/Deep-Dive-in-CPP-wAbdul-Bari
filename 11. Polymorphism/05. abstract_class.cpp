@@ -50,4 +50,14 @@ int main()
     p->fun2(); // Prints derived fun2 to show that pure virtual function fun2 ignored of Base class and Derived is printed.
     return 0;
 }
+/*
+Conclusion : 1. Purpose of inheritance is reusability. Above derived class gets fun1 from base class.
+2. Polymorphism : We make a pure virtual function fun2 and derived class overrides that function fun2.
 
+So, there are 3 types of classes in C++ :
+1. A class having all concrete function no pure virtual function is implemented for reusability for child classes.
+2. A class with all pure virtual function meant only for overriding i.e. polymorphism and such a base class is interface.
+3. Class with some concrete functions and some virtual functions then purpose is reusability and polymorphism.
+
+#2 and #3 known as abstract class too.
+*/
