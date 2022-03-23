@@ -36,3 +36,8 @@ int main()
     return 0;
 }
 
+/*
+Polymorphism : Say we have a general class car. A generalised term i.e. car. car has some functions say start,stop as
+public.
+If same statement having different function calls is case of polymorphism.
+*/
