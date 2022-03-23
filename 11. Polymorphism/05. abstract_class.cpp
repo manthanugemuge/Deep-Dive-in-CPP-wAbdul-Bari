@@ -22,7 +22,27 @@ class Derived : public Base
     {
         cout << "Derived Fun2"; // This is function overriding : Re-defining the function of base class in a child class
     }
+    // So question is when child class redefines the function then what's the need to define function in base class ?
+    // When we want to redefine function that means we want polymorphism -> Purpose of inheritance is polymorphism
+    /*  So when child class has the function, then purpose of base class having body of function isn't needed, 
+and in some cases we do need definition in base class also But when for namesake we want function in base and
+purpose is to use function inside derived class then to achieve polymorphism we set function of base as virtual,
+which means functions having virtual in front of them are there just for namesake and real functions are there
+down in derived class with definition that would be considered for final output.
 
+So, when using virtual in base functions do we need the body of function ? No we don't. We want definition only
+in derived classes, base class would have no functionality and just prototype of function, then we remove the body as 
+follows : virtual void fun2() = 0 ; in the base class This would mean pure virtual function.
+The purpose of function above is to achieve polymorphism. We want derived classes to override this function intentionally.
+It thus becomes mandatory for derived classes to override the function when it is a pure virtual function.
+This means base class is governing or giving a rule to child classes to definitely override the function.
+
+If a class has pure virtual function then that class is known as abstract class. Object of that class cannot be created.
+However, pointer to the abstract class can be made Base *p ;. Abstract classes can't have objects but they can have
+pointers to achieve polymorphism. Polymorphism can be achieved as we have seen earlier by doing
+Base *p = new Derived();
+p->fun2(); // Calls the function of derived class.
+*/
 };
 int main()
 {
