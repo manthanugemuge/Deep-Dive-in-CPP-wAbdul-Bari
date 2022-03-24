@@ -3,7 +3,10 @@ using namespace std;
 class Car
 {
 public:
-    virtual void start() = 0; 
+    virtual void start() = 0; // Pure Virtual Function Thus, class is abstract class.
+    /* Object creation of abstract class is not allowed but we can make pointer of abstract class.
+    Purpose of pure virtual function is to force the child classes to override those functions and if child doesn;t
+    overrides then child classes become Abstract classes as well. Pure virtual function used for getting polymorphism.*/
 };
 class Innova : public Car
 {
