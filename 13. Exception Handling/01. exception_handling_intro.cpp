@@ -27,5 +27,14 @@ e.g.(i) Bad Input -> Suppose user needs to give int but is entering a string the
 (iii) Deletion of crucial files required for proper functioning of program.
 (iv) Program dependent on a Printer or other hardware resource but that is not connected.
 
+Program crashes abruptly during runtime errors. And it is users who are responsible for runtime error.
+
+Exceptions are referred to as those inputs or cases upon entering of which program will give runtime error.
+And way to address exceptions is to ask user for input until correct input is given.
+Program gives meaningfull message to user so that users can remove wrong inputs themselves.
+
+Thus, lack or inappropriate availability of resources causes Runtime errors which are external factors to the program.
+
+What can be done in case of these run time errors ? You should raise some error or notify the user on receiving the error. This helps to guide the user so that user can troubleshoot the error.
 
 */
