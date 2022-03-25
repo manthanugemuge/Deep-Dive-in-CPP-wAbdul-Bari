@@ -563,4 +563,8 @@ there are separate videos on preprocessor directives in later sections.
       int Student::admissionNo = 0;
     ```
     
-    
+## Contributing
+Pull requests are welcome, feel free to ```fork``` this repo.
+
+## License
+This project is open-sourced under the [MIT license]().
