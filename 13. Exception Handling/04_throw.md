@@ -28,4 +28,11 @@ int division(int x,iny y)
 }
 ```
 
+- Specifying empty throw( ) in front of your function means that function doesn't throws any exception.
 
+```cpp
+int division (int x, int y) throw( ) // means no exception thrown.
+{
+    return(x/y);
+}
+```
