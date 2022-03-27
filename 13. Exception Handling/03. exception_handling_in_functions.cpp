@@ -23,4 +23,13 @@ int main()
     return 0;
 }
 
+/*
+Actual purpose of try, catch throw we see above.
+When we call a function that function returns a result, and in case of function not being able to return the result
+then function should be able to inform the calling function that there is some problem. We want functions to be able to communicate with each other.
+So when function is called it should either return the result or it should tell about error.
+So we can say that throw catch try is used for comms between functions. If we want 2 functions main and division whenever
+main calls division to communicate whether result is returned or if exception is there we use try catch thingy.
 
+That's why try catch is useful in functions with help of throw, otherwise we could just use 
+*/
