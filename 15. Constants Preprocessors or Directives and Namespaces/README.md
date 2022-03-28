@@ -57,4 +57,44 @@ int main()
 }
 ```
 
+- **Constant keyword in functions**
+
+```cpp
+class Demo
+{
+    public:
+        int x = 10;
+        int y = 20;
+
+        void display() const{
+            x++;
+            cout<< x << " " << y << endl;
+        }
+};
+
+int main()
+{
+    Demo d;
+    d.Display(); // x --> 11 and y --> 20 will be displayed.
+}
+```
+
+- If you do not want the member function of a class to modify the member, in that case we can write const as above just after the function name, inside the prototype of the function. Compiler will restrict the member function from doing modification of any kind to the data members. This is useful when you are sure that there is no need for a particular function in a class to modify the members of the class, so that even if by mistake due to some logical error, compiler will be there to the rescue and will notify when member function marked with const tries to modify some member's data.
+
+- **Working with functions and call by reference** : Just add const in the function prototype and you won't have your member function modifying class member values.
+
+```cpp
+void fun(const int &x,int &y)
+{
+    x++;
+    int << x << " "<< y;
+}
+
+int main()
+{
+    int a = 10,b = 20;
+    fun(a,b);
+}
+```
+
 
