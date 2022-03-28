@@ -97,4 +97,77 @@ int main()
 }
 ```
 
+## Preprocessor Directives/ Macros
 
+- **Preprocessor Directives/ Macros**: These are the instructions to compiler. We give some instructions to the compiler before it starts compiling the program, compiler can follow and perform those instructions. An example of this is `#define` preprocessor directive, used often at times to define a constant value. Using `#define` what we define are known as symbolic constants.
+
+```cpp
+#include <iostream>
+using namespace std;
+#define PI 3.14
+#define c cout
+int main()
+{
+    c<<pi; // pi will output 3.14 and c will translate to cout
+}
+```
+
+- Using `#define` we can even write functions.
+
+```cpp
+#include <iostream>
+using namespace std;
+#define SQR(x) (x * x) // Print square of integer passed
+#define MSG(x) #x // Will print whatever is passed to MSG as string.
+int main()
+{
+    cout << SQR(5); // Will give 25 as output.
+}
+```
+
+- If condition with preprocessor directives so that if not defined something, only then we will define something as a macro in the following way:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+#ifndef
+    #def PI 3.14
+#endif
+
+int main()
+{
+    cout << PI;
+}
+```
+
+## Namespaces
+
+- **Namespaces**: These are used to remove name conflict from the program. If you are writing multiple functions with the same name, not overloaded but independent functions not part of any class, signature and everything is same, and we have multiple classes having same name, in that case there will be name conflict, so we can put the 2 functions with same name inside namespaces in the following manner
+
+```cpp
+#include <iostream>
+using namespace std;
+namespace First //encapsulating within namespaces
+{
+    void func()
+    {
+        cout<<"First";
+    }
+}
+
+namespace Second
+{
+    void func()
+    {
+        cout<<"Second";
+    }
+}
+int main()
+{  
+    First::func();
+    // if you do using namespace First in that case every time you call func() First::func() would be called by default and you can do Second::func() where ever you want Second
+    // std namespace has cin, cout in it that is why we have been writing using namespace std.
+    return 0;
+}
+```
