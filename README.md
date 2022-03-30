@@ -75,6 +75,33 @@ Create new XCode Project >> Command Line Tool >> Select language as C++ and give
 - Compiler vs Interpreter
 - What is an Operating System
 
+# Skeleton of C++ Program
+
+int main() vs void main() 
+why we can not use void main instead of int main 
+some compilers supports void main and some compilers int main. Mostly 
+int main() is used. 
+Why return 0; 
+what is the meaning or use of return 0; here and what will happen if we 
+don't use return 0 in our code. 
+when a program is ending it should return 0. 
+It is like a standard in C++ programs, it must be writen.
+return 0; means program has terminated successfully. 
+Why std 
+why we have to write std with cout. simply writing cout it will not 
+execute? 
+C++ supports namespaces. All built-in functions and object are included 
+in namespace. 
+There is a video available on namespaces, in ending sections. 
+cout is also present in namespace.
+there are 2 methods of using cout. 
+1. std::cout 
+2. Using namespace std; then simply write cout. 
+What is #include.
+# is used as preprocessor directive. 
+#include will ask the compiler to include the header file. 
+there are separate videos on preprocessor directives in later sections.
+
 # Program Development:
 
 - Programming Paradigms Methodologies
