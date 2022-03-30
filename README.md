@@ -48,7 +48,7 @@ Checking for
 - For MAc OS
 - For Online Compiler
 
-# For Windows
+## For Windows
 
 1. Go to [MinGW](http://www.mingw.org/)  >> Click on Downloads and get the compiler from sourceforge website.
 Install the compiler and set the path to it in System Variables so it can be detected by any programs that want to use it.
@@ -64,14 +64,14 @@ Build the project by  clicking build and see how the main.cpp is executed in con
  Be sure to choose whether you want without compiler or with MinGW installed or source code variant.
  Again Install the program, create new project of console application type. Try Hello World program in main.cpp, try building the project to verify if it works.
 
-# For Mac OS 
+## For Mac OS 
 
 Go to App Store and search for Xcode. Install it and you're done.
 Alternatively, you can also go to terminal and type **xcode-select --install** 
 
 Create new XCode Project >> Command Line Tool >> Select language as C++ and give title and destination and proceed.
 
-# For Online
+## For Online
 
 <a href="https://replit.com/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/1200px-Repl.it_logo.svg.png" alt="Replit" width="40" height="40"/> </a>
 <a href="https://www.onlinegdb.com/" target="_blank"> <img src="https://user-images.githubusercontent.com/87055332/149525097-ee28b32b-1906-4464-8588-8b0db8a4c259.png" alt="GDB online Compiler" width="40" height="40"/> </a>
