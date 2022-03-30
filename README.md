@@ -42,6 +42,12 @@ So, interpreter is used to establish interaction between OS and Hardware which m
 We will be focusing on basics and being correct syntax wise throughout the course but it will be more intense till we get to functions, after that point the focus will shift to understanding OOP concepts and connecting them with real world examples to understand how it fits in software development cycle.
 
 # Installing IDEs
+
+Checking for 
+- For Windows 
+- For MAc OS
+- for Online Compiler
+
 # For Windows
 
 1. Go to [MinGW](http://www.mingw.org/)  >> Click on Downloads and get the compiler from sourceforge website.
