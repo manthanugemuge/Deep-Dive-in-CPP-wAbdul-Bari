@@ -9,6 +9,5 @@ void area()
 	
     area=(float)b*h/2;
     
- 
  cout<<area;
 }
