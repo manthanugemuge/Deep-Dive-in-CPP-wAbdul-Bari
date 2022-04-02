@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int CalculateDistance(int u,int v,int a)
 {
     float distance;
