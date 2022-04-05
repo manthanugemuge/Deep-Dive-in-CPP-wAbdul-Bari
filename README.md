@@ -154,7 +154,7 @@ there are separate videos on preprocessor directives in later sections.
 - If can be nested inside if as well as else statement.
 - Nesting of is also written as else-if ladder.
 
-# Loops:
+# [Loops](https://github.com/ManthanUgemuge/DeepDiveinCPPwAbdul-Bari/tree/main/03.%20Loops) :
 
 - Loops are iterative statements.
 - Block of statements are repeatedly executed as long as condition is true.
