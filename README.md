@@ -166,7 +166,7 @@ there are separate videos on preprocessor directives in later sections.
   3. counter controlled loop for()
   4. for each loop for Collections for()
 
-# [Arrays}(https://github.com/ManthanUgemuge/DeepDiveinCPPwAbdul-Bari/tree/main/04.%20Arrays):
+# [Arrays](https://github.com/ManthanUgemuge/DeepDiveinCPPwAbdul-Bari/tree/main/04.%20Arrays):
 
 - Array is a collection of similar data elements under one name, each element is accessible using its index.
 - Memory for array is allocated contiguously.
@@ -175,7 +175,7 @@ there are separate videos on preprocessor directives in later sections.
 - Two-Dimensional Arrays are sued for Matrices.
 - Array can be created in Stack or Heap Section of memory.
 
-# {Pointer}(https://github.com/ManthanUgemuge/DeepDiveinCPPwAbdul-Bari/tree/main/05.%20Pointers):
+# [Pointer](https://github.com/ManthanUgemuge/DeepDiveinCPPwAbdul-Bari/tree/main/05.%20Pointers):
 
 - Pointer is address variable.
 - It can store the address of data.
