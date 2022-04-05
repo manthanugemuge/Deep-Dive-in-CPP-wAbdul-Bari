@@ -144,7 +144,7 @@ there are separate videos on preprocessor directives in later sections.
 - Logical Operator
 - enum & typedef
 
-# Conditional Statements:
+# [Conditional Statements](https://github.com/ManthanUgemuge/DeepDiveinCPPwAbdul-Bari/tree/main/02.%20Conditional%20Statements):
 
 - If and else is used for writing conditional statement.
 - If condition is true then if block is executed.
