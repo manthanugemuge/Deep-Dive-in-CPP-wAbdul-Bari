@@ -4,7 +4,8 @@ Learn C++ Programming -Beginner to Advance- Deep Dive in C++.
 - Here I bring you the notes of cpp exclusively from Sir Abdul Bari's Deep Dive in C++ Course on [Udemy](https://www.udemy.com/course/cpp-deep-dive/). 
 
 # Intro to Course
--- We will be learning all that is part of standard university one semester course in C++. Course medium by Udemy instructor is White Board and screenrecording from time to time. I will be writing whatever I feel is important in these notes. Demonstration of each topic along with code will be provided, to cover practical and theoretical aspects in a greater way for learning as well as remembering for longer periods of time has been taken care of.
+
+We will be learning all that is part of standard university one semester course in C++. Course medium by Udemy instructor is White Board and screenrecording from time to time. I will be writing whatever I feel is important in these notes. Demonstration of each topic along with code will be provided, to cover practical and theoretical aspects in a greater way for learning as well as remembering for longer periods of time has been taken care of.
 
 # Why one should learn C++ ?
 
